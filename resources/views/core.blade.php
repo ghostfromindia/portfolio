@@ -17,6 +17,10 @@
         		font-family: 'Noto Serif', serif;
         		font-size: 18px;
         	}
+        	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #30c508;
+    background-color: transparent;
+}
         </style>
     </head>
 
