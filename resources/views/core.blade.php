@@ -17,6 +17,18 @@
         		font-family: 'Noto Serif', serif;
         		font-size: 18px;
         	}
+        	.circle
+    {
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:50px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#000
+
+    }
         	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #30c508;
     background-color: transparent;
@@ -24,14 +36,12 @@
         </style>
     </head>
 
-    <body>
+    <body style="overflow: hidden;">
     	<header></header>
-    	<div class="container">
-    	<div class="row">
-		    		<div class="col-md-12" align="center" style="margin-top:25px;">
-		<img src="img/logo.png" class="img-responsive">
-
-		<nav class="navbar navbar-default Fjalla" >
+    
+	{{-- 	<img src="img/logo.png" class="img-responsive">
+ --}}
+		{{-- <nav class="navbar navbar-default Fjalla" >
 		  <div class="container-fluid" >
 		    <ul class="nav navbar-nav" style="float: center">
 		      <li class="active"><a href="#">Home</a></li>
@@ -41,13 +51,12 @@
 		      <li><a href="#">Contact</a></li>
 		    </ul>
 		  </div>
-		</nav>
+		</nav> --}}
 
-		</div>
+		
     		@section('body')
     		@show
-    	</div>
-    	</div>
+    	
     	<footer></footer>	
     </body>
 
