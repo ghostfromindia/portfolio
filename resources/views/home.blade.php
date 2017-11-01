@@ -1,15 +1,7 @@
 @extends('core')
 @section('body')
 <style type="text/css">
-	.tdog {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    animation-name: tdog;
-    animation-duration: 60s;
-    animation-iteration-count: 3;
-}
+
 .sky1 {
     width: 100px;
     height: 100px;
@@ -48,14 +40,7 @@
     100% {width: 100px;}
 }
 
-@keyframes tdog {
-     0%   {left:0px; top:300px;}
-    20%  {left:400px; top:300px;}
-    40%  {left:600px; top:250px;}
-    60%  {left:400px; top:600px;transform: rotate(+10deg);}
-    80%  {left:200px; top:230px;transform: rotate(-10deg);}
-    100% {left:100px; top:200px;transform: rotate(+10deg);}
-}
+
 @keyframes sky1 {
     0%   {left:0px; top:200px;}
     100% {left:1000px; top:200px;}
@@ -74,7 +59,6 @@
 
 </style>
 <div><img src="img/baloon.png" class="baloon" width="290px" ></div>
-<div class="tdog"><img src="img/bird.gif" width="40%"></div>
 <div class="sky1"><img src="img/sky1.png" width="80%"></div>
 <div class="sky2"><img src="img/sky1.png" width="80%"></div>
 <div><img src="img/sun.png" class="sun" style="top: 30px;position:absolute;left:250px;"></div>
